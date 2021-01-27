@@ -1,7 +1,7 @@
 .search-form_overlay {
   position: absolute;
   width: calc(100% - 20px);
-  top: 70px;
+  top: 60px;
   left: 50%;
   transform: translate(-50%, 0);
   border: 1px solid #BDBDBD;
