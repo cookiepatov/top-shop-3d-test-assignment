@@ -1,0 +1,7 @@
+.contacts__city-selector {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  cursor: pointer;
+}

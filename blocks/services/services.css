@@ -1,0 +1,12 @@
+.services {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+@media screen and (max-width:750px)
+{
+  .services {
+    height: 0;
+  }
+}

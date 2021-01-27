@@ -1,0 +1,33 @@
+.services__link {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 18px;
+  display: flex;
+  align-content: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+
+.services__link::after {
+  display: inline-block;
+  content: "";
+  background-image: url(../../../images/arrow-black.svg);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.services__link:hover::after {
+  transform: translate(0, 2px);
+}

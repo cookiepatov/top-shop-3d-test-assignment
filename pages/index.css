@@ -1,0 +1,61 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/OpenSans/openSans.css);
+@import url(../vendor/fonts/SFPro/SFPro.css);
+
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/header/header.css);
+
+@import url(../blocks/header/__top-block/header__top-block.css);
+@import url(../blocks/header/__middle-block/header__middle-block.css);
+@import url(../blocks/header/__bottom-block/header__bottom-block.css);
+
+@import url(../blocks/contacts/contacts.css);
+@import url(../blocks/contacts/__info-item/contacts__info-item.css);
+@import url(../blocks/contacts/__info-block/contacts__info-block.css);
+@import url(../blocks/contacts/__city-selector/contacts__city-selector.css);
+@import url(../blocks/contacts/__city-selector-text/contacts__city-selector-text.css);
+@import url(../blocks/contacts/__phone-number/contacts__phone-number.css);
+@import url(../blocks/contacts/__working-hours/contacts__working-hours.css);
+@import url(../blocks/contacts/__links/contacts__links.css);
+@import url(../blocks/contacts/__link-item/contacts__link-item.css);
+@import url(../blocks/contacts/__mailto/contacts__mailto.css);
+@import url(../blocks/contacts/__messengers/contacts__messengers.css);
+@import url(../blocks/contacts/__messenger-link/contacts__messenger-link.css);
+@import url(../blocks/contacts/__messenger-icon/contacts__messenger-icon.css);
+@import url(../blocks/contacts/__messenger-icon/_skype/contacts__messenger-icon_skype.css);
+
+@import url(../blocks/control-panel/control-panel.css);
+
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__img/logo__img.css);
+@import url(../blocks/logo/__text/logo__text.css);
+@import url(../blocks/logo/__text/_highlight/logo__text_highlight.css);
+
+@import url(../blocks/yamarket/__link/yamarket__link.css);
+@import url(../blocks/yamarket/__img/yamarket__img.css);
+
+@import url(../blocks/search-form/search-form.css);
+@import url(../blocks/search-form/_overlay/search-form_overlay.css);
+@import url(../blocks/search-form/__input/search-form__input.css);
+@import url(../blocks/search-form/__submit/search-form__submit.css);
+
+@import url(../blocks/log-in/log-in.css);
+@import url(../blocks/log-in/__text/log-in__text.css);
+
+@import url(../blocks/cart/cart.css);
+@import url(../blocks/cart/__text/cart__text.css);
+
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/navigation/__container/navigation__container.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+
+@import url(../blocks/services/services.css);
+@import url(../blocks/services/__container/services__container.css);
+@import url(../blocks/services/__link/services__link.css);
+
+@import url(../blocks/mobile-menu/mobile-menu.css);
+@import url(../blocks/mobile-menu/__show-navigation/mobile-menu__show-navigation.css);
+@import url(../blocks/mobile-menu/__show-services/mobile-menu__show-services.css);
+
+@import url(../blocks/footer/footer.css);

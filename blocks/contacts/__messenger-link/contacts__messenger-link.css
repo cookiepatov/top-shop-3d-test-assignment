@@ -1,0 +1,7 @@
+.contacts__messenger-link {
+  margin-right: 19px;
+}
+
+.contacts__messenger-link:last-of-type {
+  margin-right: 0;
+}

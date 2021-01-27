@@ -1,0 +1,16 @@
+.contacts__mailto {
+  text-decoration: none;
+  color: black;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+@media screen and (max-width:750px)
+{
+  .contacts__mailto {
+    display: none;
+  }
+}

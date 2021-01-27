@@ -1,0 +1,15 @@
+.header__bottom-block {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 21px;
+}
+
+
+@media screen and (max-width:1200px)
+{
+  .header__bottom-block {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}

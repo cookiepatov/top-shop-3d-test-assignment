@@ -1,0 +1,6 @@
+.contacts__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  width: fit-content;
+}

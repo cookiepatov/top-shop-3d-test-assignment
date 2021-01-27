@@ -1,0 +1,16 @@
+.contacts__link-item {
+  margin-right: 36px;
+  display: flex;
+  align-items: center;
+}
+
+.contacts__link-item:last-of-type {
+  margin-right: 0;
+}
+
+
+@media screen and (max-width:400px) {
+  .contacts__link-item {
+    margin: 0;
+  }
+}

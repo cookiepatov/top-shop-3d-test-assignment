@@ -1,0 +1,15 @@
+.mobile-menu__show-services {
+  background-color: #D2001C;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  width: 160px;
+  padding: 6px 16px 6px 16px;
+  width: 50%;
+  color: white;
+  width: calc(50% - 3px);
+  margin-left: 3px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+}

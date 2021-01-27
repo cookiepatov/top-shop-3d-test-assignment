@@ -1,0 +1,7 @@
+.header__top-block {
+  display: flex;
+  justify-content: center;
+  background-color: #FED600;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}

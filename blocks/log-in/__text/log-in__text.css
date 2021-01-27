@@ -1,0 +1,30 @@
+.log-in__text::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../../../images/log-in-icon.svg);
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.log-in__text {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+
+@media screen and (max-width:750px)
+{
+  .log-in__text {
+    font-size: 0;
+  }
+  .log-in__text::before {
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+  }
+}

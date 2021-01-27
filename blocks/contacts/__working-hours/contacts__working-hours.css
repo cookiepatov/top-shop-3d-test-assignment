@@ -1,0 +1,15 @@
+.contacts__working-hours {
+  margin: 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+@media screen and (max-width:1000px)
+{
+  .contacts__working-hours {
+    display: none;
+  }
+}

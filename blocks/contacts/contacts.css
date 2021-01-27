@@ -1,0 +1,17 @@
+.contacts {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  width: 100%;
+  justify-content: space-between;
+}
+
+
+@media screen and (max-width:1200px)
+{
+  .contacts {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100% - 20px);
+  }
+}

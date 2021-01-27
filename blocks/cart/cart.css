@@ -1,0 +1,19 @@
+.cart {
+  background-color: #D2001C;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  width: 160px;
+  padding: 6px 16px 6px 16px;
+}
+
+
+
+@media screen and (max-width:750px)
+{
+  .cart {
+    width: fit-content;
+    padding: 6px 0 6px 6px;
+  }
+}

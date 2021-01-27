@@ -1,0 +1,30 @@
+.cart__text::before {
+  content: "";
+  display: block;
+  background-image: url(../../../images/cart-icon.svg);
+  background-size: contain;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.cart__text {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+
+@media screen and (max-width:750px)
+{
+  .cart__text {
+    font-size: 0;
+  }
+}

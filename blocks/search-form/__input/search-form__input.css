@@ -1,0 +1,31 @@
+.search-form__input {
+  margin-left: 16px;
+  height: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: 0;
+  background-color: transparent;
+  width: calc(100% - 100px);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+
+@media screen and (max-width: 750px)
+{
+  .search-form__input {
+    width: calc(100% - 65px);
+  }
+}
+
+
+@media screen and (max-width: 400px)
+{
+  .search-form__input {
+    margin-left: 6px;
+  }
+}
+
+

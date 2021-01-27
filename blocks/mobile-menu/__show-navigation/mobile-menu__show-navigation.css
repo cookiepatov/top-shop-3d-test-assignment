@@ -1,0 +1,22 @@
+.mobile-menu__show-navigation {
+  border: 2px solid #D2001C;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: white;
+  color: #D2001C;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 75px;
+  height: 36px;
+  cursor: pointer;
+  width: calc(50% - 3px);
+  margin-right: 3px;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+}

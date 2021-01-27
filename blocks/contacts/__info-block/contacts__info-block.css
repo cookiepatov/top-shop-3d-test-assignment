@@ -1,0 +1,7 @@
+.contacts__info-block {
+  display: flex;
+  flex-direction: row;
+  width: fit-content
+}
+
+

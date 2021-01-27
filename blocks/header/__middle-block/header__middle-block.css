@@ -1,0 +1,17 @@
+.header__middle-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 16px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid hsla(0, 0%, 74%, 0.35);
+}
+
+
+@media screen and (max-width:750px)
+{
+  .header__middle-block {
+    padding-top: 8px;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,16 @@
+.mobile-menu {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: calc(100% - 12px);
+  margin-left: 6px;
+  margin-right: 6px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media screen and (min-width: 751px) {
+  .mobile-menu {
+    display: none;
+  }
+}
