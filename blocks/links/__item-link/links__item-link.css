@@ -1,0 +1,13 @@
+.links__item-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #4D4D4D;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.links__item-link:hover {
+  opacity: 0.7;
+}

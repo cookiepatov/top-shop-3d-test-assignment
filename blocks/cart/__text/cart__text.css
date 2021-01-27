@@ -7,6 +7,7 @@
   width: 24px;
   height: 24px;
   margin-right: 8px;
+  transition: transform 0.2s ease-in-out;
 }
 
 .cart__text {

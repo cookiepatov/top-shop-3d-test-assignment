@@ -1,0 +1,30 @@
+.about__send-application {
+  margin-top: 40px;
+  background-color: #D2001C;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  width: 280px;
+  height: 44px;
+  color: white;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.7px;
+  transition: transform 0.2s ease-in-out;
+}
+
+
+@media screen and (max-width:450px)
+{
+  .about__send-application {
+    margin-top: 20px;
+  }
+}
+
+
+.about__send-application:hover {
+  transform: scale(1.05);
+}

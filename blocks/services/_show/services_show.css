@@ -1,3 +1,13 @@
-.navigation_show {
-  height: auto;
+@media screen and (max-width:750px)
+{
+  .services_show {
+    height: 160px;
+  }
+}
+
+@media screen and (max-width:450px)
+{
+  .services_show {
+    height: 240px;
+  }
 }

@@ -5,4 +5,21 @@
   font-weight: normal;
   font-size: 13px;
   line-height: 18px;
+  position: relative;
+}
+
+
+.navigation__link::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  background-color: #D2001C;
+  bottom: 0;
+  transition: width 0.2s ease-in-out;
+}
+
+.navigation__link:hover::after{
+  width: 100%;
 }

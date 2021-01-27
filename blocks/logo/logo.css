@@ -5,6 +5,7 @@
   align-items: center;
   justify-content: space-between;
   text-decoration: none;
+  transition: opacity 0.2s ease-in-out;
 }
 
 @media screen and (max-width: 600px)
@@ -12,4 +13,9 @@
   .logo {
     width: fit-content;
   }
+}
+
+
+.logo:hover {
+  opacity: 0.5
 }

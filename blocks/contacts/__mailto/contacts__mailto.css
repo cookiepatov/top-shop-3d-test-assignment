@@ -14,3 +14,7 @@
     display: none;
   }
 }
+
+.contacts__mailto:hover {
+  opacity: 0.8;
+}

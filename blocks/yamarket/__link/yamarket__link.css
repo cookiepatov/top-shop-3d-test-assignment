@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   width: fit-content;
+  transition: opacity 0.2s ease-in-out;
 }
 
 
@@ -14,4 +15,9 @@
   .yamarket__link {
     display: none;
   }
+}
+
+
+.yamarket__link:hover {
+  opacity: 0.5;
 }

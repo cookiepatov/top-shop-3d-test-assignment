@@ -17,3 +17,8 @@
     padding: 6px 0 6px 6px;
   }
 }
+
+
+.cart:hover .cart__text::before {
+  transform: translateX(4px);
+}

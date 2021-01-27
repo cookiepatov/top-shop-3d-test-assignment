@@ -5,3 +5,8 @@
   padding: 0;
   cursor: pointer;
 }
+
+
+.log-in:hover .log-in__text::before {
+  transform: translateX(4px);
+}

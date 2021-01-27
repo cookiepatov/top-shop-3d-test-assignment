@@ -1,7 +1,13 @@
 .contacts__messenger-link {
   margin-right: 19px;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .contacts__messenger-link:last-of-type {
   margin-right: 0;
+}
+
+
+.contacts__messenger-link:hover {
+  opacity: 0.5;
 }

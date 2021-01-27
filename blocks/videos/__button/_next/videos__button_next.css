@@ -1,0 +1,4 @@
+.videos__button_next {
+  transform: rotate(180deg);
+  border-right: none;
+}

@@ -12,5 +12,8 @@
   .contacts__phone-number {
     display: none;
   }
+}
 
+.contacts__phone-number:hover {
+  opacity: 0.8;
 }

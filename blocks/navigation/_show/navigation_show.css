@@ -1,3 +1,13 @@
-.navigation_show {
-  height: auto;
+@media screen and (max-width:750px)
+{
+  .navigation_show {
+    height: 87px
+  }
+}
+
+@media screen and (max-width:450px)
+{
+  .navigation_show {
+    height: 135px
+  }
 }

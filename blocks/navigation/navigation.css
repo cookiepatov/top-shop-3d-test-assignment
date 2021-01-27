@@ -1,6 +1,7 @@
 .navigation {
   width: 100%;
   overflow: hidden;
+  transition: height 0.2s ease-in-out;
 }
 
 

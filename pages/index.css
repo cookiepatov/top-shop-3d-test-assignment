@@ -49,13 +49,41 @@
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__container/navigation__container.css);
 @import url(../blocks/navigation/__link/navigation__link.css);
+@import url(../blocks/navigation/_show/navigation_show.css);
 
 @import url(../blocks/services/services.css);
 @import url(../blocks/services/__container/services__container.css);
 @import url(../blocks/services/__link/services__link.css);
+@import url(../blocks/services/_show/services_show.css);
 
 @import url(../blocks/mobile-menu/mobile-menu.css);
 @import url(../blocks/mobile-menu/__show-navigation/mobile-menu__show-navigation.css);
 @import url(../blocks/mobile-menu/__show-services/mobile-menu__show-services.css);
+
+@import url(../blocks/content/content.css);
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__pic/about__pic.css);
+@import url(../blocks/about/__apply/about__apply.css);
+@import url(../blocks/about/__job/about__job.css);
+@import url(../blocks/about/__send-application/about__send-application.css);
+@import url(../blocks/about/__legal-info/about__legal-info.css);
+@import url(../blocks/about/__main-text/about__main-text.css);
+@import url(../blocks/about/__paraghraph/about__paraghraph.css);
+@import url(../blocks/about/__link/about__link.css);
+
+@import url(../blocks/links/links.css);
+@import url(../blocks/links/__title/links__title.css);
+@import url(../blocks/links/__container/links__container.css);
+@import url(../blocks/links/__item-link/links__item-link.css);
+@import url(../blocks/links/__item/links__item.css);
+@import url(../blocks/links/__item-link/_highlight/links__item-link_highlight.css);
+
+@import url(../blocks/videos/videos.css);
+@import url(../blocks/videos/__container/videos__container.css);
+@import url(../blocks/videos/__title/videos__title.css);
+@import url(../blocks/videos/__contols/videos__contols.css);
+@import url(../blocks/videos/__button/videos__button.css);
+@import url(../blocks/videos/__button/_next/videos__button_next.css);
+@import url(../blocks/videos/__item/videos__item.css);
 
 @import url(../blocks/footer/footer.css);

@@ -1,0 +1,30 @@
+.links__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.7px;
+  position: relative;
+  overflow: hidden;
+}
+
+.links__title::after {
+  display: block;
+  position: absolute;
+  top: 55%;
+  left: 290px;
+  content: "";
+  height: 1px;
+  width: 100%;
+  opacity: 0.1;
+  background-color: black;
+}
+
+
+@media screen and (max-width:1240px) {
+  .links__title {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,33 @@
+.about__apply {
+  width: 333px;
+}
+
+
+@media screen and (max-width:1240px)
+{
+  .about__apply {
+    margin-left: 10px;
+    width: 323px;
+  }
+}
+
+
+@media screen and (max-width:1100px)
+{
+  .about__apply {
+    width: 400px;
+    grid-row: 3/3;
+    margin-left: 5%;
+  }
+}
+
+
+
+@media screen and (max-width:450px)
+{
+  .about__apply {
+    width: auto;
+    grid-row: 3/3;
+    margin-left: 5%;
+  }
+}

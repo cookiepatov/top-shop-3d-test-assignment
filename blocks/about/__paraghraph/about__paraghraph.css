@@ -1,0 +1,18 @@
+.about__paraghraph {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  letter-spacing: -0.7px;
+  color: #4D4D4D;
+  margin-bottom: 19px;
+}
+
+
+.about__paraghraph:last-of-type {
+  margin-bottom: 0;
+}
+
+

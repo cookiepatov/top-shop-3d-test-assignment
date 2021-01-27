@@ -1,0 +1,17 @@
+.videos__title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0;
+  justify-self: left;
+
+}
+
+
+@media screen and (max-width: 450px) {
+  .videos__title {
+    font-size: 24px;
+  }
+}

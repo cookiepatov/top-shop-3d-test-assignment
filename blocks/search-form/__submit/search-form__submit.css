@@ -15,6 +15,7 @@
   height: 36px;
   margin-right: 4px;
   cursor: pointer;
+  transition: border 0.2s ease-in-out;
 }
 
 .search-form__submit::before {
@@ -41,4 +42,9 @@
     width: 40px;
   }
 
+}
+
+
+.search-form__submit:hover {
+  border: 2px solid #d2001c49;
 }
