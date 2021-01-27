@@ -1,3 +1,4 @@
+import '../pages/index.css';;
 const navButton = document.querySelector('.mobile-menu__show-navigation');
 const servButton = document.querySelector('.mobile-menu__show-services');
 const navMenu = document.querySelector('.navigation');
