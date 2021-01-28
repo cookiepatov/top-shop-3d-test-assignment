@@ -1,4 +1,19 @@
+.log-in::before {
+  content: "";
+  display: inline-block;
+  background-image: url(../../images/log-in-icon.svg);
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
 .log-in {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: row;
   background-color: transparent;
   border: none;
   margin: 0;
@@ -7,6 +22,21 @@
 }
 
 
-.log-in:hover .log-in__text::before {
+.log-in:hover::before {
   transform: translateX(4px);
+}
+
+
+
+
+@media screen and (max-width:750px)
+{
+  .log-in {
+    font-size: 0;
+  }
+  .log-in::before {
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+  }
 }

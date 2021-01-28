@@ -14,7 +14,6 @@
 @import url(../blocks/contacts/__info-item/contacts__info-item.css);
 @import url(../blocks/contacts/__info-block/contacts__info-block.css);
 @import url(../blocks/contacts/__city-selector/contacts__city-selector.css);
-@import url(../blocks/contacts/__city-selector-text/contacts__city-selector-text.css);
 @import url(../blocks/contacts/__phone-number/contacts__phone-number.css);
 @import url(../blocks/contacts/__working-hours/contacts__working-hours.css);
 @import url(../blocks/contacts/__links/contacts__links.css);
@@ -41,10 +40,8 @@
 @import url(../blocks/search-form/__submit/search-form__submit.css);
 
 @import url(../blocks/log-in/log-in.css);
-@import url(../blocks/log-in/__text/log-in__text.css);
 
 @import url(../blocks/cart/cart.css);
-@import url(../blocks/cart/__text/cart__text.css);
 
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/navigation/__container/navigation__container.css);

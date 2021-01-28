@@ -1,4 +1,24 @@
+.cart::before {
+  content: "";
+  display: block;
+  background-image: url(../../images/cart-icon.svg);
+  background-size: contain;
+  background-position: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  transition: transform 0.2s ease-in-out;
+}
+
 .cart {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: row;
   background-color: #D2001C;
   border-radius: 4px;
   cursor: pointer;
@@ -19,6 +39,15 @@
 }
 
 
-.cart:hover .cart__text::before {
+.cart:hover::before {
   transform: translateX(4px);
+}
+
+
+
+@media screen and (max-width:750px)
+{
+  .cart {
+    font-size: 0;
+  }
 }

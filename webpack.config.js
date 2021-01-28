@@ -7,18 +7,7 @@ module.exports = {
   path.resolve(__dirname, "scripts/css.js")],
   module: {
     rules: [
-      { test: /\.css$/, use: [ 'style-loader', 'css-loader',
-      {
-        loader: 'postcss-loader',
-        options: {
-          postcssOptions:{
-            plugins: [
-              [
-                'autoprefixer',{}
-              ]
-            ]
-          }
-        }}] },
+      { test: /\.css$/, use: [ 'style-loader', 'css-loader', 'postcss-loader'] },
       { test: /\.(js)$/, use: 'babel-loader' },
       {
         test: /\.(|woff|woff2|eot|ttf|otf)$/i,

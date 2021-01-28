@@ -1,4 +1,10 @@
 .contacts__city-selector {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
   border: none;
   padding: 0;
   margin: 0;
@@ -12,13 +18,25 @@
   padding: 0;
   margin: 0;
   background-color: transparent;
+  opacity: 0.8;
   cursor: pointer;
 }
 
-.contacts__city-selector:hover .contacts__city-selector-text::after {
+.contacts__city-selector:hover::after {
   transform: translate(0, 2px);
 }
 
-.contacts__city-selector:hover {
-  opacity: 0.8;
+
+.contacts__city-selector::after {
+  display: inline-block;
+  content: "";
+  background-image: url(../../../images/arrow-black.svg);
+  width: 20px;
+  height: 20px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
 }
+
+
